@@ -11,3 +11,9 @@ module load StdEnv/2020
 module load python/3.7.9
 
 module load opencv/4.5.1
+
+##To cancel a job
+
+sq
+
+Scancel jobid
