@@ -2,6 +2,8 @@
 
 salloc --gres=gpu:a100_2g.10gb:1 --time=8:00:00 --ntasks=1 --mem=8G --nodes=1
 
+salloc --gres=gpu:a100_2g.10gb:1 --time=90:00:00 --ntasks=1 --mem=32G --nodes=1
+
 . ~/miniconda3/bin/activate
 
 conda activate pyskl
