@@ -28,6 +28,9 @@ cd pyskl
 
 python run.py
 
+## to test a model:
+
+python tools/test.py configs/msg3d/msg3d_pyskl_ntu60_xsub_hrnet/j.py --eval mean_class_accuracy top_k_accuracy --checkpoint Amani/work_dirs/msg3d_pyskl_ntu60_xsub_hrnet/j/latest.pth
 
 ## To cancel a job
 
